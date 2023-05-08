@@ -43,15 +43,15 @@ try
 
     # x0 = 0; %TODO change
 
-    # GGN_method(@func_a, @func_c, x0, tol, kmax)
+    # GGN_method(func_a, func_c, x0, tol, kmax)
 
 
-    # %Loesen des Problems von UB 3.4.b
+    %Loesen des Problems von UB 3.4.b
 
 
-    # x0 = [0.5, 1.5]';
-
-    # GGN_method(@func_a, @func_c, x0, tol, kmax)
+    x0 = [0.75, 0.5, 1.5]';
+    func_a = @(r,xp,yp) [ 
+    GGN_method(func_a, func_c, x0, tol, kmax)
 
 catch err
     fprintf("Fehler")
